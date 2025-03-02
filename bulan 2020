@@ -1,0 +1,30 @@
+try:
+    bulan = int(input("masukan bulan: "))
+    if bulan == 1:
+      print("31 hari")
+    elif bulan == 2:
+      print("29 hari")
+    elif bulan == 3:
+      print("31 hari")
+    elif bulan == 4:
+      print("30 hari")
+    elif bulan == 5:
+      print("31 hari")
+    elif bulan == 6:
+      print("30 hari")
+    elif bulan == 7:
+      print("31 hari")
+    elif bulan == 8:
+      print("31 hari")
+    elif bulan == 9:
+      print("30 hari")
+    elif bulan == 10:
+      print("31 hari")
+    elif bulan == 11:
+      print("30 hari")
+    elif bulan == 12:
+      print("31 hari")
+    else:
+      print("Bulan tidak ada, 1 tahun hanya ada 12 bulan!!!!")
+except:
+  print("Anda harus memasukan bilangan bulat!!!!")
