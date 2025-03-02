@@ -1,0 +1,8 @@
+suhu_anda = (input("masukan suhu tubuh: "))
+try:
+  suhu = int(suhu_anda)
+  if suhu >= 38:
+    print("Anda demam")
+  else:
+    print("Anda tidak demam")
+except: print("Anda harus memasukan bilangan bulat!!!!")
