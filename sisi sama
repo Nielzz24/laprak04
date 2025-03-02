@@ -1,0 +1,12 @@
+try:
+  sisi1 = int(input("masukan sisi 1: "))
+  sisi2 = int(input("masukan sisi 2: "))
+  sisi3 = int(input("masukan sisi 3: "))
+  if sisi1 == sisi2 == sisi3:
+    print("tiga sisi sama")
+  elif sisi1 == sisi2 or sisi1 == sisi3 or sisi2 == sisi3:
+    print("dua sisi sama")
+  else:
+    print("tidak ada sisi yang sama")
+except:
+   print("Anda harus memasukan bilangan bulat!!!!")
